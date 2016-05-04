@@ -1,6 +1,6 @@
 <?php
 
-$AppName = "Updated Demo App";
+$AppName =Hello World! "Demo App";
 
 ob_start();
 
@@ -9,7 +9,7 @@ include "lib.php";
 ?>
 <!DOCTYPE html>
 <head>
-	<!-- 
+	<!--
     	Brownie Template
     	http://www.templatemo.com/preview/templatemo_440_brownie
 
@@ -41,25 +41,25 @@ include "lib.php";
     </nav>
     <div class="templatemo-site-header">
 		<div class="container">
-			<div class="row templatemo-position-relative">				
+			<div class="row templatemo-position-relative">
 				<nav class="hidden-xs text-uppercase templatemo-nav">
 					<ul class="menu-holder">
 						<li class="active"><a href="#home">Home</a></li>
-						<li><a href="#about">CPU</a></li>					
+						<li><a href="#about">CPU</a></li>
 						<li><a href="#services">Memory</a></li>
 						<li><a href="#products">Network</a></li>
 						<li><a href="#contact">Disk</a></li>
 					</ul>
 				</nav>
 				<h1 class="templatemo-site-name">
-                	<span class="templatemo-brown">AWS</span> 
+                	<span class="templatemo-brown">AWS</span>
                 	<span class="templatemo-gold"><?php print $AppName; ?></span>
                 </h1>
 				<div class="text-right visible-xs">
 		            <a href="#" id="mobile_menu"><span class="fa fa-bars"></span></a>
 		        </div>
 			</div>
-		</div>    	
+		</div>
     </div>
 	<section id="home" class="templatemo-section">
 		<div class="container">
@@ -72,7 +72,7 @@ include "lib.php";
 						<h2 class="templatemo-brown">System Overview</h2>
 						<h3 class="templatemo-gold">Overview of major system components.</h3>
 						<p class="margin-top-30">System overview information for top processes and resources used.</p>
-					</div>					
+					</div>
 				</div>
 			</div>
 		</div>
@@ -87,7 +87,7 @@ include "lib.php";
 							<span class="templatemo-section-title">Information <span class="templatemo-gold"><strong>Graph</strong></span></span>
 						</h2>
 						<p class="margin-top-30">CPU use information in graph presentation.</p>
-					</div>										
+					</div>
 				</div>
 				<div class="col-lg-6 col-md-6">
 							<canvas id="cpu" width="600" height="400"></canvas>
@@ -108,7 +108,7 @@ include "lib.php";
 							<span class="templatemo-section-title">System <span class="templatemo-gold"><strong>Memory</strong></span></span>
 						</h2>
 						<p class="margin-top-30">System memory.</p>
-					</div>					
+					</div>
 				</div>
 			</div>
 		</div>
@@ -123,7 +123,7 @@ include "lib.php";
 							<span class="templatemo-section-title">Use <span class="templatemo-gold"><strong>DATA</strong></span></span>
 						</h2>
 						<p class="margin-top-30">Current Error, Drop, Tx, and Rx data values.</p>
-					</div>					
+					</div>
 				</div>
 				<div class="col-lg-6 col-md-6">
 						<canvas id="network" width="600" height="400"></canvas>
@@ -140,8 +140,8 @@ include "lib.php";
 				<div class="col-lg-6 col-md-6">
 					<div class="templatemo-content-box templatemo-second-box">
 						<h2 class="templatemo-brown">Disk Usage <span class="templatemo-gold">STORAGE</span></h2>
-						<p class="margin-top-30">Current storage utilization.  Hard disk space on system.</p> 
-					</div>					
+						<p class="margin-top-30">Current storage utilization.  Hard disk space on system.</p>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -154,8 +154,8 @@ include "lib.php";
 					<!-- <span class="templatemo-copyright-design">Design: <a href="http://www.templatemo.com" class="templatemo-gold">templatemo</a></span> -->
 				</p>
 			</div>
-		</div>		
-	</footer>	
+		</div>
+	</footer>
 	<script src="js/jquery-1.11.1.min.js"></script>
 	<script src="js/templatemo_script.js"></script>
         <script>
